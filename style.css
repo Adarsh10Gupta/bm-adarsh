@@ -260,7 +260,8 @@
     overflow-x: hidden;
   }
   .scroll-box {
-    overflow-x: hidden;
+    overflow-x: auto;
+    padding: 0 120px;
   }
   .boxes h2 {
     font-size: 30px;
@@ -1334,7 +1335,7 @@ background: linear-gradient(to top, #0051ff27 -10%, #ffffff 10%);
     flex: 0 0 24%; /* Increased from 23% */
     max-width: 30%;
     min-height: 500px;
-    height: 650px;
+    height: 550px;
   }
 /* 
   .testimonial-card {
